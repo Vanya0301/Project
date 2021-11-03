@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon-32x32.png" type="images/png">
+    <title>Contact</title>
+    <style>
+    body {background: url(images/pizzaimage.jpeg);}
+    .mainheading {text-align: center; font-family: cursive; font-size: 30px;}
+    .subheader{text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 15px;}
+    .logo{width: 50px; display: block; margin-left: auto; margin-right: auto; border-radius: 50%;}
+    .section1{ background-color: #ffe4b5;}
+    nav{background-color: black; display: block;}
+    nav ul {list-style: none;}
+    ul {display: block; margin-block-start: 1em; margin-block-end: 1em; margin-inline-end: 0px; margin-inline-start: 0px; padding-inline-start: 40px;}
+    nav ul li {display: inline-block; padding: 10px 15px 9px 15px; background-color:#ffe4b5 ; font-weight: bold;}
+    a {text-decoration: solid; color: black;}
+    form{background-color:#ffe4b5 ; padding-right: 50px; margin-right: 70%; padding-top: 20px; padding-left: 20px;}
+    .heading{padding-left: 10px;}
+    .location{padding-left: 10px;}
+    .address{background-color:#ffe4b5 ; padding: 5px; margin-right: 70%;}
+    iframe{background-color: black; padding: 10px}
+    .info{background-color: firebrick; margin-right: 60%; color: white; padding: 5px; }
+  
+</style>
+</head>
+<body>
+    <img class="logo" src="images/logo.png" alt="logo" title="pizza logo"/> 
+    <div class="section1">
+    <h1 class="mainheading">Crazy Pizza </h1> 
+    <h2 class="subheader">Boston</h2>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <a class="home" href="index.html">Home</a>
+        </li>
+        <li>
+          <a class="about" href="aboutus.html">About Us</a>
+        </li>
+        <li>
+          <a class="menu" href="menu.html">Menu</a>
+        </li>
+        <li>
+          <a class="gallery" href="gallery.html">Gallery</a>
+        </li>
+        <li>
+          <a class="contact" href="contact.html">Contact Us</a>
+        </li>
+        <li>
+          <a class="sitemap" href="sitemap.html">Sitemap</a>
+        </li>
+      </ul>
+    </nav>
+    <h1 class="heading">Contact Us</h1>
+    <form method="post" action="">
+      <label for="First Name"> First Name:</label>
+        <input
+        type="text"
+        id= "First Name"
+        name= "First Name"
+        maxlenght="100"
+        placeholder="First Name"
+        />
+        <br>
+        <br>
+        <label for="Last Name"> Last Name:</label>
+        <input
+        type="text"
+        id= "Last Name"
+        name= "Last Name"
+        maxlenght="100"
+        placeholder="Last Name"
+        />
+        <br>
+        <br>
+        <label for="Email"> Email:</label>
+        <input
+        type="text"
+        id= "Email"
+        name= "Email"
+        maxlenght="100"
+        placeholder="Email address"
+        />
+        <br>
+        <br>
+<div>
+    <div>
+        <label for="comments"> Any Comments?</label>
+    </div>
+    <div>
+        <textarea
+id="comments"
+name="comments"
+rows="3"
+cols="30"
+Placeholder=" Enter your comment here..."
+        ></textarea>
+    </div>
+</div>
+<button type="submit">Submit</button>
+<br>
+<br>
+</form>
+<h2 class="location">Our Location</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.908649553842!2d-71.09967404976827!3d42.34447094397782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37a1e014633ab%3A0x29c2a8d0efe0c0e2!2sBlaze%20Pizza!5e0!3m2!1sen!2sus!4v1635807238365!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<h4 class="address">Address: 1282 Boylston St, Boston, MA 02215</h4>
+<div class="info">
+<h2>Contact Information:</h2>
+<p>Tel: +1(781)-690-5390</p>
+<p>Email: crazypizzaboston.com</p>
+</div>
+</body>
+</html>
