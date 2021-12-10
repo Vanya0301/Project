@@ -63,7 +63,7 @@ td, th {
     </nav>
     <div class="menuhead">
     <h1>Menu</h1>
-    <h2>Check out our Dinner Menu!</h2>
+    <h2 id="two">Check out our Dinner Menu!</h2>
     </div>
     <br>
     <table>
@@ -110,5 +110,17 @@ td, th {
             <td>$29.99</td>
         </tr>
     </table>
+    <script>
+      document.getElementById("two").onmouseover = function() {mouseOver()};
+      document.getElementById("two").onmouseout = function() {mouseOut()};
+
+function mouseOver() {
+  document.getElementById("two").style.color = "red";
+}
+
+function mouseOut() {
+  document.getElementById("two").style.color = "black";
+}
+    </script>
 </body>
 </html>
