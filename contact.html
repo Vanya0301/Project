@@ -55,7 +55,7 @@
       </ul>
     </nav>
     <h1 class="heading">Contact Us</h1>
-    <form method="post" action="">
+    <form name="myForm" method="post" action="mailto:stylevanya@gmail.com" onsubmit="return validateForm()">
       <label for="First Name"> First Name:</label>
         <input
         type="text"
@@ -111,6 +111,15 @@ Placeholder=" Enter your comment here..."
 <h2>Contact Information:</h2>
 <p>Tel: +1(781)-690-5390</p>
 <p>Email: crazypizzaboston.com</p>
+<script>
+function validateForm() {
+  let x = document.forms["myForm"]["Email"].value;
+  if (x == "") {
+    alert("Email is required");
+    return false;
+  }
+}
+</script>
 </div>
 </body>
 </html>
