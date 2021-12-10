@@ -70,11 +70,17 @@
     <br>
     <div class="container">
         <img class="aboutusbanner" src="images/aboutusimage.jpeg" alt="aboutus" title="pizza"/>
-        <div class="centered">FUN, FRESH, AND AUTHENTICALLY ITALIAN!</div>
+        <div id="one" onclick="myFunction()" class="centered">FUN, FRESH, AND AUTHENTICALLY ITALIAN!</div>
     </div>
     <div class="banner">
         <h2 class="footerheading">JOIN US AT CRAZY PIZZA FOR A UNIQUE ITALIAN EXPERIENCE</h2>
         <h3 class="lineheight">We have kept the centuries-old tradition but added new thinking to the Italian staples. Expert Chefs man Italy’s famous Morello ovens creating just the right crispness for mouth-watering skinny pizzas with guilt free (but never taste free) dough. For an extra indulgent experience you will want to jump straight to the extravagant “Crazy Pizza” such as the Pata Negra, the Crazy Pizza Focaccia or the bucket-list Tartufo with copious shavings of fresh black truffle and white truffle extra virgin oil.</h3>
     </div>
+    <script>
+      function myFunction() {
+  document.getElementById("one").style.color = "white"; 
+  document.getElementById("one").innerHTML = "VISIT US TODAY"; 
+}
+    </script>
 </body>
 </html>
